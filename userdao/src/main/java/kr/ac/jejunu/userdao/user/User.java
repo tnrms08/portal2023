@@ -1,4 +1,4 @@
-package kr.ac.jejunu.user;
+package kr.ac.jejunu.userdao.user;
 
 public class User {
     private Long id;
