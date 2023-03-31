@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="52f00383-75d9-4c19-9388-4187651f754d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userdao/src/test/java/kr/ac/jejunu/userdao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/src/test/java/kr/ac/jejunu/userdao/UserDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2N8DsNOLzIla1fqnnopKHl8uxdP" />
   <component name="ProjectViewState">
@@ -164,7 +168,7 @@
       <updated>1679037021910</updated>
       <workItem from="1679037023178" duration="3229000" />
       <workItem from="1679653448748" duration="62000" />
-      <workItem from="1680246249911" duration="349000" />
+      <workItem from="1680246249911" duration="1950000" />
     </task>
     <servers />
   </component>
