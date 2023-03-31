@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userdao/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userdao/src/test/java/kr/ac/jejunu/userdao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/src/test/java/kr/ac/jejunu/userdao/UserDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +95,14 @@
   <component name="RunManager" selected="Gradle.UserDaoTest">
     <configuration name="UserDaoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
+        <option name="env">
+          <map>
+            <entry key="DB_CLASSNAME" value="com.mysql.cj.jdbc.Driver" />
+            <entry key="DB_PASSWORD" value="010810" />
+            <entry key="DB_URL" value="jdbc:mysql://localhost/jeju" />
+            <entry key="DB_USERNAME" value="root" />
+          </map>
+        </option>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/userdao" />
         <option name="externalSystemIdString" value="GRADLE" />
@@ -160,6 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Gradle.UserDaoTest" />
+      <item itemvalue="Gradle.UserDaoTest.insert" />
+      <item itemvalue="JUnit.UserDaoTest" />
+      <item itemvalue="Spring Boot.UserdaoApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.UserDaoTest" />
@@ -178,7 +193,7 @@
       <updated>1679037021910</updated>
       <workItem from="1679037023178" duration="3229000" />
       <workItem from="1679653448748" duration="62000" />
-      <workItem from="1680246249911" duration="3757000" />
+      <workItem from="1680246249911" duration="5555000" />
     </task>
     <servers />
   </component>
