@@ -11,8 +11,15 @@ sourceCompatibility = '17'
 repositories {
 	mavenCentral()
 }
+ext{
+	springVersion="6.0.7"
+//	springVersion="5.3.26"
+}
 
 dependencies {
+	implementation "org.springframework:spring-core:${springVersion}"
+	implementation "org.springframework:spring-context:${springVersion}"
+
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'

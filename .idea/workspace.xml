@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="52f00383-75d9-4c19-9388-4187651f754d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userdao/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/DaoFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userdao/src/test/java/kr/ac/jejunu/userdao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/src/test/java/kr/ac/jejunu/userdao/UserDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +32,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="userdao" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="userdao" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -72,6 +79,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "spring.configuration.checksum": "91b5c8b30a15c9d689aa2572ca8de877",
     "vue.rearranger.settings.migration": "true"
   }
@@ -168,7 +178,7 @@
       <updated>1679037021910</updated>
       <workItem from="1679037023178" duration="3229000" />
       <workItem from="1679653448748" duration="62000" />
-      <workItem from="1680246249911" duration="1950000" />
+      <workItem from="1680246249911" duration="3757000" />
     </task>
     <servers />
   </component>
