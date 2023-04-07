@@ -23,10 +23,15 @@ public class DaoFactory {
 
     @Bean
     public UserDao userDao() throws ClassNotFoundException {
-        UserDao userDao = new UserDao(dataSource());
+        UserDao userDao = new UserDao(jdbcContext());
         return userDao;
     }
 
+    @Bean
+    public JdbcContext jdbcContext() throws ClassNotFoundException {
+        JdbcContext jdbcContext = new JdbcContext(dataSource());
+        return jdbcContext;
+    }
     @Bean
     public DataSource dataSource() throws ClassNotFoundException {
         SimpleDriverDataSource dataSource = new SimpleDriverDataSource();
