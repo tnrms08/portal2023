@@ -21,11 +21,6 @@ public class UserDao {
                     ("select id, name, password from userinfo where id = ?");
             preparedStatement.setLong(1, id);
             resultSet = preparedStatement.executeQuery();
-//            resultSet.next();
-//            user = new User();
-//            user.setId(resultSet.getLong("id"));
-//            user.setName(resultSet.getString("name"));
-//            user.setPassword(resultSet.getString("password"));
             if(resultSet.next()){
                 user = new User();
                 user.setId(resultSet.getLong("id"));
@@ -60,13 +55,13 @@ public class UserDao {
         ResultSet resultSet = null;
         try {
             connection = dataSource.getConnection();
-            //쿼리 만들고
+
             preparedStatement = connection.prepareStatement
                     ("insert into userinfo (name, password) values ( ?, ? )"
                             , Statement.RETURN_GENERATED_KEYS);
             preparedStatement.setString(1, user.getName());
             preparedStatement.setString(2, user.getPassword());
-            //쿼리 실행하고
+
             preparedStatement.executeUpdate();
             resultSet = preparedStatement.getGeneratedKeys();
             resultSet.next();
@@ -91,23 +86,19 @@ public class UserDao {
         }
     }
 
-    public void update(User user) {
+    public void update(User user) throws SQLException {
+        StatementStrategy statementStrategy = new UpdateStatementStrategy(user);
+        jdbcContextForUpdate(statementStrategy);
+    }
+
+    private void jdbcContextForUpdate(StatementStrategy statementStrategy) throws SQLException {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         try {
             connection = dataSource.getConnection();
-            //쿼리 만들고
-            preparedStatement = connection.prepareStatement
-                    ("update userinfo set name = ?, password = ? where id = ?");
-            preparedStatement.setString(1, user.getName());
-            preparedStatement.setString(2, user.getPassword());
-            preparedStatement.setLong(3,user.getId());
-            //쿼리 실행하고
-          preparedStatement.executeUpdate();
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
+            preparedStatement = statementStrategy.makeStatement(connection);
+            preparedStatement.executeUpdate();
         } finally {
-            //자원해지
             try {
                 preparedStatement.close();
             } catch (SQLException e) {
@@ -121,31 +112,8 @@ public class UserDao {
         }
     }
 
-    public void delete(Long id) {
-        Connection connection = null;
-        PreparedStatement preparedStatement = null;
-        try {
-            connection = dataSource.getConnection();
-            //쿼리 만들고
-            preparedStatement = connection.prepareStatement
-                    ("delete from userinfo where id =?");
-            preparedStatement.setLong(1,id);
-            //쿼리 실행하고
-            preparedStatement.executeUpdate();
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        } finally {
-            //자원해지
-            try {
-                preparedStatement.close();
-            } catch (SQLException e) {
-                throw new RuntimeException(e);
-            }
-            try {
-                connection.close();
-            } catch (SQLException e) {
-                throw new RuntimeException(e);
-            }
-        }
+    public void delete(Long id) throws SQLException {
+        StatementStrategy statementStrategy = new DeleteStatementStrategy(id);
+        jdbcContextForUpdate(statementStrategy);
     }
 }

@@ -7,7 +7,6 @@
     <list default="true" id="52f00383-75d9-4c19-9388-4187651f754d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userdao/src/test/java/kr/ac/jejunu/userdao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/src/test/java/kr/ac/jejunu/userdao/UserDaoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -193,7 +193,7 @@
       <workItem from="1679653448748" duration="62000" />
       <workItem from="1680246249911" duration="7285000" />
       <workItem from="1680497347692" duration="115000" />
-      <workItem from="1680850747762" duration="2189000" />
+      <workItem from="1680850747762" duration="5657000" />
     </task>
     <servers />
   </component>
