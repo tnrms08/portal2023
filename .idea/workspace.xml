@@ -11,9 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="52f00383-75d9-4c19-9388-4187651f754d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/JdbcContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/JdbcContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userdao/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userdao/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +58,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -88,7 +87,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/github/portal2023",
+    "last_opened_file_path": "D:/github/portal2023/userdao/src/main/webapp/WEB-INF",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -105,6 +104,9 @@
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="kr.ac.jejunu.userdao.user" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\portal2023\userdao\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.8">
@@ -344,7 +346,7 @@
       <workItem from="1681478151549" duration="863000" />
       <workItem from="1682665903331" duration="1818000" />
       <workItem from="1683081082792" duration="55000" />
-      <workItem from="1683875342881" duration="4224000" />
+      <workItem from="1683875342881" duration="7794000" />
     </task>
     <servers />
   </component>
