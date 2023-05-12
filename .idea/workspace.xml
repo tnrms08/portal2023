@@ -10,9 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52f00383-75d9-4c19-9388-4187651f754d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userdao/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/JdbcContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/JdbcContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/src/main/java/kr/ac/jejunu/userdao/user/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userdao/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/userdao/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,6 +235,26 @@
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_CLASSNAME" />
+          <option name="VALUE" value="com.mysql.cj.jdbc.Driver" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_PASSWORD" />
+          <option name="VALUE" value="010810" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_URL" />
+          <option name="VALUE" value="jdbc:mysql://localhost/jeju" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_USERNAME" />
+          <option name="VALUE" value="root" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
       </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -263,6 +285,26 @@
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_CLASSNAME" />
+          <option name="VALUE" value="com.mysql.cj.jdbc.Driver" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_PASSWORD" />
+          <option name="VALUE" value="010810" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_URL" />
+          <option name="VALUE" value="jdbc:mysql://localhost/jeju" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+        <EnvironmentVariables>
+          <option name="NAME" value="DB_USERNAME" />
+          <option name="VALUE" value="root" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -302,7 +344,7 @@
       <workItem from="1681478151549" duration="863000" />
       <workItem from="1682665903331" duration="1818000" />
       <workItem from="1683081082792" duration="55000" />
-      <workItem from="1683875342881" duration="3018000" />
+      <workItem from="1683875342881" duration="4224000" />
     </task>
     <servers />
   </component>
